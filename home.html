@@ -51,7 +51,7 @@
             <div class="col-12 col-lg-8">
                 <div class="d-flex justify-content-between align-items-center">
                     <h3 class="catalogo_libri">Catalogo Libri</h3>
-                    <a href="" class="btn btn-primary">Aggiungi libro</a>
+                    <a href="index.html" class="btn btn-primary">Aggiungi libro</a>
                 </div>
             </div>
         </div>
@@ -59,7 +59,8 @@
 
         
                                             <!-- Tabella libri -->
-        <div class="col-12 col-lg-8">
+        <div class="row">
+            <div class="col-12 col-lg-8">
             <table class="table table-striped">
                 <thead>
                     <tr>
@@ -209,78 +210,79 @@
         </div>                                  
         
                                                     <!-- Bonus Todo -->
-        
-            <div class="col-12 col-lg-4">                                         
-                <div class="card">
-                    <div class="card-header">
-                        <h4>Todo</h4>
+            <div class="row">
+                <div class="col-12 col-lg-4">                                         
+                    <div class="card">
+                        <div class="card-header">
+                            <h4>Todo</h4>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="avvisare_segreteria">
+                                    <label class="form-check-label" for="avvisare_segreteria">Chiamare segreteria</label>
+                                </div>
+                            </li>
+                            <li class="list-group-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="avvisi_prestiti">
+                                    <label class="form-check-label" for="avvisi_prestiti">Mandare avvisi prestiti scaduti</label>
+                                </div>  
+                            </li>
+                            <li class="list-group-item">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="ordinazione_libri">
+                                    <label class="form-check-label" for="ordinazione_libri">Ordinare nuovi libri</label>
+                                </div>   
+                            </li>
+                        </ul>
                     </div>
-                    <ul class="list-group list-group-flush">
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="avvisare_segreteria">
-                                <label class="form-check-label" for="avvisare_segreteria">Chiamare segreteria</label>
-                            </div>
-                        </li>
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="avvisi_prestiti">
-                                <label class="form-check-label" for="avvisi_prestiti">Mandare avvisi prestiti scaduti</label>
-                            </div>  
-                        </li>
-                        <li class="list-group-item">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="ordinazione_libri">
-                                <label class="form-check-label" for="ordinazione_libri">Ordinare nuovi libri</label>
-                            </div>   
-                        </li>
-                    </ul>
                 </div>
-            
                 
 
                                                 <!-- Fine Bonus Todo -->
 
                                                 <!-- Bonus F.A.Q. -->
-                                             
-                <div class="card mt-4">
-                    <div class="card-header">
-                    <h4>F.A.Q.</h4>
-                    </div>
-                        <ul class="list-group list-group-flush">
-                            <div class="form-floating">
-                                <select class="form-select" id="aggiunta_libro" aria-label="Domanda aggiunta nuovo libro">
-                                <option selected>Come aggiungere un nuovo libro?</option>
-                                <option value="1">Metodo uno</option>
-                                <option value="2">Metodo due</option>
-                                <option value="3">Metodo tre</option>
-                                </select>
-                            </div>
-                        </ul>
+                <div class="col-12 col-lg-4">                                 
+                    <div class="card mt-4">
+                        <div class="card-header">
+                        <h4>F.A.Q.</h4>
+                        </div>
+                            <ul class="list-group list-group-flush">
+                                <div class="form-floating">
+                                    <select class="form-select" id="aggiunta_libro" aria-label="Domanda aggiunta nuovo libro">
+                                        <option selected>Come aggiungere un nuovo libro?</option>
+                                        <option value="1">Metodo uno</option>
+                                        <option value="2">Metodo due</option>
+                                        <option value="3">Metodo tre</option>
+                                    </select>
+                                </div>
+                            </ul>
 
-                        <ul class="list-group list-group-flush">
-                            <div class="form-floating">
-                                <select class="form-select" id="accesso_anagrafica" aria-label="Domanda accesso anagrafica utenti">
-                                <option selected>Come posso accedere all'anagrafica utenti?</option>
-                                <option value="1">Metodo uno</option>
-                                <option value="2">Metodo due</option>
-                                <option value="3">Metodo tre</option>
-                                </select>
-                            </div>
-                        </ul>
+                            <ul class="list-group list-group-flush">
+                                <div class="form-floating">
+                                    <select class="form-select" id="accesso_anagrafica" aria-label="Domanda accesso anagrafica utenti">
+                                        <option selected>Come posso accedere all'anagrafica utenti?</option>
+                                        <option value="1">Metodo uno</option>
+                                        <option value="2">Metodo due</option>
+                                        <option value="3">Metodo tre</option>
+                                    </select>
+                                </div>
+                            </ul>
 
-                        <ul class="list-group list-group-flush">
-                            <div class="form-floating">
-                                <select class="form-select" id="dashboard_mobile" aria-label="Domanda utilizzo dashboard da mobile">
-                                <option selected>Posso usare questa dashboard da mobile?</option>
-                                <option value="1">Si</option>
-                                <option value="2">No</option>
-                                </select>
-                            </div>
-                        </ul>
-                    </div>
-                </div>                            
-            </div>                                
+                            <ul class="list-group list-group-flush">
+                                <div class="form-floating">
+                                    <select class="form-select" id="dashboard_mobile" aria-label="Domanda utilizzo dashboard da mobile">
+                                        <option selected>Posso usare questa dashboard da mobile?</option>
+                                        <option value="1">Si</option>
+                                        <option value="2">No</option>
+                                    </select>
+                                </div>
+                            </ul>
+                        </div>
+                    </div>                            
+                </div> 
+            </div>                                   
                                                 <!-- Fine Bonus F.A.Q. -->
 </body>
 </html>
